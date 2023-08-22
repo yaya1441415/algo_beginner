@@ -26,3 +26,6 @@ def boundedSort(a, k):
 
 a = [1, 3, 6, 1, 5, 4, 1, 1, 2, 3, 3, 1, 3, 5, 2, 2, 4]
 boundedSort(a,len(a)-1)
+
+print("quick \Sort")
+boundedSort(a, 4)
