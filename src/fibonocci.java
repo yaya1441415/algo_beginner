@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  * the program finds the fibonacci
- * number.
+ * number
  */
 public class fibonocci {
     // initialize an array.
