@@ -1,4 +1,11 @@
 import java.util.Scanner;
+/**
+Least Common Multiple Problem
+Compute the least common multiple of two positive integers.
+Input: Two positive integers a
+and b.
+Output: The least common multiple of a and b
+**/
 
 public class Lcm {
     public static void main(String[] args){
@@ -19,7 +26,8 @@ public class Lcm {
         }
         return gcd(min,rest);
     }
-
+      //the function finds the least
+      //common Multiple using gcd.
     public static long lcm(long a, long b){
         long  mult = a*b;
         long  dev = gcd(a, b);
