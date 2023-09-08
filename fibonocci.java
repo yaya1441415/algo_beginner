@@ -7,6 +7,7 @@ public class fibonocci {
     // initialize an array.
     private static long[] fibCash;
 
+
     public static void main(String[] atgs){
         //getting input from user.
         Scanner in = new Scanner(System.in);
